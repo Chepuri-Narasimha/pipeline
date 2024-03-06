@@ -1,0 +1,7 @@
+#commands 
+
+wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
+
+# aws deploy create-application --application-name sampleapp
+
+# aws deploy push --application-name sampleapp --s3-location s3://production/sampleapp.zip
